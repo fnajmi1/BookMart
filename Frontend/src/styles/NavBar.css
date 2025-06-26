@@ -1,0 +1,154 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #4e342e, #e37351);;
+  color: #ffffff;
+  padding: 0 1rem;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.brand-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Georgia', serif;
+}
+
+/* Search Container */
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  max-width: 480px;
+}
+
+.search-form {
+  display: flex;
+  background-color: #fff8dc;
+  border-radius: 999px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #b8860b;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  color: #4e342e;
+  font-size: 1rem;
+  min-width: 0;
+}
+
+.search-submit {
+  background: #FFD700;
+  color: #4e342e;
+  font-weight: bold;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.search-submit:hover {
+  background: #f1c40f;
+}
+
+/* Filter & User */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.filter-button {
+  background-color: #b8860b;
+  color: white;
+  border: none;
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #8b6508;
+}
+
+.cart-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.cart-count {
+  top: 2px;
+  right: 10px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.welcome-msg {
+  font-weight: 700;
+  color: white;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .search-container {
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .navbar-right {
+    justify-content: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+  }
+}

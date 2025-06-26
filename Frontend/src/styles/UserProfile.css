@@ -1,0 +1,85 @@
+.user-profile-container {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-initials {
+  background-color: #444;
+  color: rgb(230, 223, 223);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background-color: rgb(246, 240, 240);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-circle {
+  background-color: #777;
+  color: rgb(243, 237, 237);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.user-name {
+  font-weight: bold;
+  color: black;
+}
+
+.user-email {
+  font-size: 12px;
+  color: gray;
+}
+
+.user-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-dropdown ul li {
+  padding: 10px 15px;
+  border-top: 1px solid #f7eeee;
+  cursor: pointer;
+}
+
+.user-dropdown ul li:hover {
+  background-color: #eae8e8;
+}
+
+.user-menu{
+  color:black;
+}
+.Orders {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0px 0px;
+  
+}

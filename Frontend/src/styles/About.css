@@ -1,0 +1,98 @@
+.about-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: transparent;
+}
+
+.bookshelf {
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left-shelf {
+  background: url('../assets/bookshelf.png');
+}
+
+.right-shelf {
+  background: url('../assets/bookshelf.png');
+}
+
+.about-page {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  flex-grow: 1;
+  margin: auto;
+  text-align: center;
+}
+
+/* Transparent background override */
+.transparent-bg {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.hero-section {
+  padding: 4rem 1rem 3rem;
+  background-color: #C19A6B;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
+}
+
+.hero-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.brand-name {
+  color: #6F4E37;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  color: #5C4033;
+  margin: 1rem 0 2rem;
+}
+
+.primary-button {
+  background-color: #6F4E37;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #54382e;
+  transform: scale(1.05);
+}
+
+.metrics {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #6F4E37;
+}
+
+.cta-section {
+  background-color: #C19A6B;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #988558;
+  margin-top: 3rem;
+}

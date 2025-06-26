@@ -1,0 +1,240 @@
+
+.cart-container {
+  /* max-width: 900px; */
+  margin: 40px auto;
+  /* padding: 20px; */
+  /* background-color: #fdfdfd; */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+/* =======================
+   Cart Item List & Item
+   ======================= */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.cart-item:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.cart-item img {
+  width: 90px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* =======================
+   Cart Item Details
+   ======================= */
+.cart-details {
+  flex-grow: 1;
+}
+
+.cart-details h4 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.cart-details p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.cart-details .category {
+  font-style: italic;
+  color: #888;
+  font-size: 13px;
+}
+
+/* =======================
+   Quantity Controls
+   ======================= */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.quantity-controls button {
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.quantity-controls button:hover {
+  background-color: #388e3c;
+}
+
+.quantity-controls span {
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 24px;
+  text-align: center;
+}
+
+/* =======================
+   Remove Button
+   ======================= */
+.remove-btn {
+  margin-top: 12px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #e53935;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
+
+/* =======================
+   Empty Cart Styling
+   ======================= */
+#empty-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.empty-cart-content {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.empty-cart-image {
+  width: 120px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.empty-cart-content h2 {
+  font-size: 24px;
+  color: #343a40;
+  margin-bottom: 12px;
+}
+
+.empty-cart-content p {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 24px;
+}
+
+.empty-cart-content button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.empty-cart-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Place Order */
+
+.cart-summary {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-section {
+  margin-bottom: 1.5rem;
+}
+
+.total-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.grand-total {
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: none;
+}
+
+/* Place Order Button */
+.place-order-btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  justify-content: center;
+  display: flex;
+}
+
+.place-order-btn:hover {
+  background-color: #218838;
+}
+
+/* Price Display */
+.price {
+  font-weight: bold;
+  color: #333;
+  margin: 0.5rem 0;
+  }

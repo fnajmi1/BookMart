@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL26635325M-M.jpg" },
+    "price": 499,
+    "rating": 4.5,
+    "description": "A psychological thriller about a woman who shoots her husband and then stops speaking."
+  },
+  {
+    "id": 2,
+    "name": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "category": "Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL26490440M-M.jpg" },
+    "price": 599,
+    "rating": 4.7,
+    "description": "A novel about an abandoned girl who raised herself in the marshes of North Carolina."
+  },
+  {
+    "id": 3,
+    "name": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Self-Help",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL27950709M-M.jpg" },
+    "price": 399,
+    "rating": 4.8,
+    "description": "A guide to building good habits and breaking bad ones."
+  },
+  {
+    "id": 4,
+    "name": "The Midnight Library",
+    "author": "Matt Haig",
+    "category": "Fantasy",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28502870M-M.jpg" },
+    "price": 449,
+    "rating": 4.3,
+    "description": "A novel about a library between life and death where each book represents a different life path."
+  },
+  {
+    "id": 5,
+    "name": "Educated",
+    "author": "Tara Westover",
+    "category": "Memoir",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28815224M-M.jpg" },
+    "price": 399,
+    "rating": 4.6,
+    "description": "A memoir about a woman who leaves her survivalist family and goes on to earn a PhD from Cambridge University."
+  },
+  {
+    "id": 6,
+    "name": "The Four Winds",
+    "author": "Kristin Hannah",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL31586709M-M.jpg" },
+    "price": 549,
+    "rating": 4.4,
+    "description": "A story of one woman's survival during the Great Depression."
+  },
+  {
+    "id": 7,
+    "name": "The Invisible Life of Addie LaRue",
+    "author": "V.E. Schwab",
+    "category": "Fantasy",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30732556M-M.jpg" },
+    "price": 449,
+    "rating": 4.2,
+    "description": "A young woman makes a Faustian bargain to live forever but is cursed to be forgotten by everyone she meets."
+  },
+  {
+    "id": 8,
+    "name": "Project Hail Mary",
+    "author": "Andy Weir",
+    "category": "Science Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL31535539M-M.jpg" },
+    "price": 499,
+    "rating": 4.9,
+    "description": "An astronaut wakes up alone on a spaceship with no memory of who he is or how he got there."
+  },
+  {
+    "id": 9,
+    "name": "Malibu Rising",
+    "author": "Taylor Jenkins Reid",
+    "category": "Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL31534924M-M.jpg" },
+    "price": 499,
+    "rating": 4.1,
+    "description": "Four famous siblings throw an epic party to celebrate the end of the summer."
+  },
+  {
+    "id": 10,
+    "name": "The Last Thing He Told Me",
+    "author": "Laura Dave",
+    "category": "Mystery",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30963394M-M.jpg" },
+    "price": 449,
+    "rating": 4.0,
+    "description": "A woman's husband disappears, leaving her with a note saying 'Protect her' referring to his daughter."
+  },
+  {
+    "id": 11,
+    "name": "The Push",
+    "author": "Ashley Audrain",
+    "category": "Psychological Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28619118M-M.jpg" },
+    "price": 399,
+    "rating": 4.3,
+    "description": "A woman questions if there's something wrong with her daughter or if she's imagining things."
+  },
+  {
+    "id": 12,
+    "name": "The Sanatorium",
+    "author": "Sarah Pearse",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28762258M-M.jpg" },
+    "price": 449,
+    "rating": 3.9,
+    "description": "A detective on vacation gets trapped in a remote hotel during a storm as guests start disappearing."
+  },
+  {
+    "id": 13,
+    "name": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "category": "Science Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL29077323M-M.jpg" },
+    "price": 499,
+    "rating": 4.2,
+    "description": "An artificial friend observes human behavior while waiting to be chosen by a customer."
+  },
+  {
+    "id": 14,
+    "name": "The Code Breaker",
+    "author": "Walter Isaacson",
+    "category": "Biography",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32022873M-M.jpg" },
+    "price": 599,
+    "rating": 4.5,
+    "description": "The story of Jennifer Doudna and the gene-editing technology CRISPR."
+  },
+  {
+    "id": 15,
+    "name": "The Hill We Climb",
+    "author": "Amanda Gorman",
+    "category": "Poetry",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32020800M-M.jpg" },
+    "price": 299,
+    "rating": 4.8,
+    "description": "The inaugural poem read at President Joe Biden's inauguration."
+  },
+  {
+    "id": 16,
+    "name": "The Vanishing Half",
+    "author": "Brit Bennett",
+    "category": "Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28551357M-M.jpg" },
+    "price": 499,
+    "rating": 4.4,
+    "description": "Twin sisters grow up to live very different lives, one passing as white."
+  },
+  {
+    "id": 17,
+    "name": "Caste: The Origins of Our Discontents",
+    "author": "Isabel Wilkerson",
+    "category": "Nonfiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28667914M-M.jpg" },
+    "price": 549,
+    "rating": 4.7,
+    "description": "An examination of America's unspoken caste system."
+  },
+  {
+    "id": 18,
+    "name": "Anxious People",
+    "author": "Fredrik Backman",
+    "category": "Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30313232M-M.jpg" },
+    "price": 499,
+    "rating": 4.3,
+    "description": "A bank robber fails and takes a group of strangers hostage during an apartment viewing."
+  },
+  {
+    "id": 19,
+    "name": "The Guest List",
+    "author": "Lucy Foley",
+    "category": "Mystery",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28533376M-M.jpg" },
+    "price": 449,
+    "rating": 4.1,
+    "description": "A wedding celebration on a remote island turns deadly."
+  },
+  {
+    "id": 20,
+    "name": "Transcendent Kingdom",
+    "author": "Yaa Gyasi",
+    "category": "Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL29234872M-M.jpg" },
+    "price": 499,
+    "rating": 4.2,
+    "description": "A neuroscientist examines faith, science, and the opioid crisis."
+  },
+  {
+    "id": 21,
+    "name": "The Thursday Murder Club",
+    "author": "Richard Osman",
+    "category": "Mystery",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL28624802M-M.jpg" },
+    "price": 399,
+    "rating": 4.0,
+    "description": "Four retirees meet weekly to solve cold cases until a real murder occurs."
+  },
+  {
+    "id": 22,
+    "name": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
+    "category": "Horror",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30339772M-M.jpg" },
+    "price": 449,
+    "rating": 4.1,
+    "description": "A socialite investigates her cousin's claims that her husband is trying to murder her."
+  },
+  {
+    "id": 23,
+    "name": "The Boy, the Mole, the Fox and the Horse",
+    "author": "Charlie Mackesy",
+    "category": "Inspirational",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL29591257M-M.jpg" },
+    "price": 399,
+    "rating": 4.9,
+    "description": "An illustrated fable about friendship and life's important lessons."
+  },
+  {
+    "id": 24,
+    "name": "Untamed",
+    "author": "Glennon Doyle",
+    "category": "Memoir",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL29078714M-M.jpg" },
+    "price": 499,
+    "rating": 4.6,
+    "description": "A memoir about self-discovery and breaking free from societal expectations."
+  },
+  {
+    "id": 25,
+    "name": "The House in the Cerulean Sea",
+    "author": "TJ Klune",
+    "category": "Fantasy",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30279523M-M.jpg" },
+    "price": 499,
+    "rating": 4.5,
+    "description": "A caseworker visits an orphanage for magical children and discovers family."
+  },
+  {
+    "id": 26,
+    "name": "Piranesi",
+    "author": "Susanna Clarke",
+    "category": "Fantasy",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL29651704M-M.jpg" },
+    "price": 449,
+    "rating": 4.3,
+    "description": "A man lives in a mysterious house with endless rooms and ocean tides."
+  },
+  {
+    "id": 27,
+    "name": "The Lincoln Highway",
+    "author": "Amor Towles",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32597976M-M.jpg" },
+    "price": 599,
+    "rating": 4.4,
+    "description": "Three boys embark on a cross-country road trip in 1950s America."
+  },
+  {
+    "id": 28,
+    "name": "Beautiful World, Where Are You",
+    "author": "Sally Rooney",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33200616M-M.jpg" },
+    "price": 499,
+    "rating": 3.9,
+    "description": "Four young people navigate love, friendship, and the meaning of life."
+  },
+ 
+  {
+    "id": 29,
+    "name": "Cloud Cuckoo Land",
+    "author": "Anthony Doerr",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32574204M-M.jpg" },
+    "price": 599,
+    "rating": 4.2,
+    "description": "Interconnected stories spanning centuries about the power of storytelling."
+  },
+  {
+    "id": 30,
+    "name": "The Sentence",
+    "author": "Louise Erdrich",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL30792791M-M.jpg" },
+    "price": 499,
+    "rating": 4.1,
+    "description": "A bookstore employee is haunted by a ghost during the pandemic and racial justice protests."
+  },
+  {
+    "id": 31,
+    "name": "Matrix",
+    "author": "Lauren Groff",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32743212M-M.jpg" },
+    "price": 549,
+    "rating": 4.0,
+    "description": "A fictional account of the life of Marie de France, a 12th century poet and nun."
+  },
+  {
+    "id": 32,
+    "name": "The Love Songs of W.E.B. Du Bois",
+    "author": "Honorée Fanonne Jeffers",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32905803M-M.jpg" },
+    "price": 699,
+    "rating": 4.6,
+    "description": "An epic novel tracing the history of an African American family from slavery to present."
+  },
+  {
+    "id": 33,
+    "name": "Harlem Shuffle",
+    "author": "Colson Whitehead",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL32685216M-M.jpg" },
+    "price": 599,
+    "rating": 4.3,
+    "description": "A furniture salesman gets caught up in a heist in 1960s Harlem."
+  },
+  {
+    "id": 34,
+    "name": "No One Is Talking About This",
+    "author": "Patricia Lockwood",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33014517M-M.jpg" },
+    "price": 499,
+    "rating": 3.8,
+    "description": "A woman famous on social media must confront real life when family tragedy strikes."
+  },
+  {
+    "id": 35,
+    "name": "The Final Revival of Opal & Nev",
+    "author": "Dawnie Walton",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33300047M-M.jpg" },
+    "price": 549,
+    "rating": 4.2,
+    "description": "A fictional oral history of a 1970s rock duo and the incident that changed their lives."
+  },
+  {
+    "id": 36,
+    "name": "When We Cease to Understand the World",
+    "author": "Benjamín Labatut",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33249821M-M.jpg" },
+    "price": 499,
+    "rating": 4.4,
+    "description": "Blending fact and fiction, stories of scientific discovery and madness."
+  },
+  {
+    "id": 37,
+    "name": "The Prophets",
+    "author": "Robert Jones, Jr.",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33445105M-M.jpg" },
+    "price": 549,
+    "rating": 4.5,
+    "description": "A love story between two enslaved men on a Deep South plantation."
+  },
+  {
+    "id": 38,
+    "name": "Detransition, Baby",
+    "author": "Torrey Peters",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33568132M-M.jpg" },
+    "price": 549,
+    "rating": 4.1,
+    "description": "Three women navigate gender, sexuality, and unconventional family structures."
+  },
+  {
+    "id": 39,
+    "name": "Great Circle",
+    "author": "Maggie Shipstead",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33809276M-M.jpg" },
+    "price": 649,
+    "rating": 4.3,
+    "description": "The story of a female aviator who disappeared in 1950 and a modern actress playing her in a film."
+  },
+  {
+    "id": 40,
+    "name": "The Committed",
+    "author": "Viet Thanh Nguyen",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33932644M-M.jpg" },
+    "price": 599,
+    "rating": 4.2,
+    "description": "A sequel to The Sympathizer, following a Vietnamese spy in 1980s Paris."
+  },
+  {
+    "id": 41,
+    "name": "How Beautiful We Were",
+    "author": "Imbolo Mbue",
+    "category": "Historical Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33781458M-M.jpg" },
+    "price": 549,
+    "rating": 4.4,
+    "description": "An African village fights against an American oil company destroying their land."
+  },
+  {
+    "id": 42,
+    "name": "The Five Wounds",
+    "author": "Kirstin Valdez Quade",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL33659012M-M.jpg" },
+    "price": 499,
+    "rating": 4.0,
+    "description": "A multigenerational story of a New Mexican family in crisis."
+  },
+  {
+    "id": 43,
+    "name": "The Other Black Girl",
+    "author": "Zakiya Dalila Harris",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34120567M-M.jpg" },
+    "price": 449,
+    "rating": 3.9,
+    "description": "A young Black woman working in publishing notices strange happenings when another Black woman is hired."
+  },
+  {
+    "id": 44,
+    "name": "The Maidens",
+    "author": "Alex Michaelides",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34000919M-M.jpg" },
+    "price": 499,
+    "rating": 3.7,
+    "description": "A group therapist becomes obsessed with proving a Greek tragedy professor is a murderer."
+  },
+  {
+    "id": 45,
+    "name": "Razorblade Tears",
+    "author": "S.A. Cosby",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34238217M-M.jpg" },
+    "price": 399,
+    "rating": 4.5,
+    "description": "Two ex‑cons, one Black and one white, seek vengeance for their murdered gay sons."
+  },
+  {
+    "id": 46,
+    "name": "The Plot",
+    "author": "Jean Hanff Korelitz",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34050159M-M.jpg" },
+    "price": 499,
+    "rating": 4.1,
+    "description": "A struggling writer steals a deceased student's brilliant plot idea, then someone threatens to expose him."
+  },
+  {
+    "id": 47,
+    "name": "The Last House on Needless Street",
+    "author": "Catriona Ward",
+    "category": "Horror",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34311279M-M.jpg" },
+    "price": 449,
+    "rating": 4.3,
+    "description": "A twisted psychological thriller about a man, his daughter, and his cat living in an eerie house."
+  },
+  {
+    "id": 48,
+    "name": "The Night She Disappeared",
+    "author": "Lisa Jewell",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34399543M-M.jpg" },
+    "price": 499,
+    "rating": 4.2,
+    "description": "A young mother disappears after a night out, leaving behind only a note saying 'DIG HERE'."
+  },
+  {
+    "id": 49,
+    "name": "Rock Paper Scissors",
+    "author": "Alice Feeney",
+    "category": "Thriller",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34527411M-M.jpg" },
+    "price": 499,
+    "rating": 4.0,
+    "description": "A couple's anniversary trip to Scotland turns deadly as secrets are revealed."
+  },
+  {
+    "id": 50,
+    "name": "The Paper Palace",
+    "author": "Miranda Cowley Heller",
+    "category": "Literary Fiction",
+    "image": { "openLibrary": "https://covers.openlibrary.org/b/olid/OL34681823M-M.jpg" },
+    "price": 499,
+    "rating": 4.1,
+    "description": "A woman must choose between her husband and her childhood love after a passionate encounter."
+  }
+]
+
